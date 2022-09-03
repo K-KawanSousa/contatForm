@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de contato</title>
+</head>
+<body>
+    <form class="form" action="https://api.staticforms.xyz/submit" method="post">
+        <input type="hidden" name="accessKey" value="64ccb9b7-4752-461a-bcd2-4f023b326f7d">
+        <input type="hidden" name="redirectTo" value="https://www.mensagens10.com.br/wp-content/uploads/2013/10/sua-mensagem-foi-recebida.jpg">
+
+        <h1>Contate-nos</h1>
+        <h2>nos envie uma mensagem e entraremos em contato</h2>
+
+        <label for="name-inpt">Nome</label>
+        <input type="text" name="name" id="name-inpt">
+
+        <label for="email-inpt">E-mail</label>
+        <input type="email" name="email" id="email-inpt">
+
+        <label for="message-inp">Menssagem</label>
+        <textarea name="message" id="message-inp" cols="30" rows="10"></textarea>
+
+        <input id="submit" type="submit" value="submit">
+    </form>
+</body>
+</html>
